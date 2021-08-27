@@ -1,0 +1,67 @@
+/* Troll Game Project  
+
+	Author: Lani Hurley;
+	Date: 8/23/2021;
+
+
+ 	CSS rules to specify families 
+
+	font-family: 'Coda Caption', sans-serif;
+	font-family: 'Eater', cursive;
+	font-family: 'Freckle Face', cursive;
+	font-family: 'Gloria Hallelujah', cursive;
+
+*/
+
+body {
+	background-image: url("forest.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: "Eater", cursive;
+	color: cornsilk;
+	font-size: 4.5em;
+	text-align: center;
+	text-shadow: black 1px 1px 1px, 
+				 darkred 4px 4px 2px, 
+				 greenyellow 6px 6px 1px;
+				 
+}
+
+div#button {
+	background-color: greenyellow;
+	width: 300px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Gloria Hallelujah", cursive;
+	font-size: 2em;
+	border-radius: 30px;
+	transition: all 1.3s;
+}
+
+div#button:hover {
+	background-color: darkred;
+	cursor: pointer;
+	font-size: 2.3em;
+}
+
+h2#result {
+	font-family: "Coda Caption", sans-serif;
+	text-align: center;
+	color: greenyellow;
+	font-size: 2.2em;
+	text-shadow: white 2px 2px 2px,
+				 black 3px 3px 1px;
+}
+
+h2#death {
+	font-family: "Freckle Face", cursive;
+	text-align: center;
+	color: firebrick;
+	font-size: 2.8em;
+	text-shadow: white 2px 2px 2px,
+				 black 3px 3px 1px;
+}
